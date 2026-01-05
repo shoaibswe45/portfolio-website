@@ -1,0 +1,637 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Professional Portfolio Website - Showcasing skills, projects, and experience">
+    <title>My Portfolio - Web Developer & Designer</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="container">
+            <a href="#home" class="logo">Portfolio</a>
+            <div class="nav-toggle" id="navToggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#portfolio" class="nav-link">Portfolio</a></li>
+                <li><a href="#experience" class="nav-link">Experience</a></li>
+                <li><a href="#education" class="nav-link">Education</a></li>
+                <li><a href="#testimonials" class="nav-link">Testimonials</a></li>
+                <li><a href="#blog" class="nav-link">Blog</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Home Section -->
+    <section id="home" class="home-section">
+        <div class="container">
+            <div class="home-content">
+                <h1 class="fade-in">Hello, I'm <span class="highlight">John Doe</span></h1>
+                <p class="tagline fade-in-delay">Full Stack Developer & Creative Designer</p>
+                <p class="description fade-in-delay-2">Building beautiful and functional web experiences</p>
+                <a href="#about" class="btn btn-primary slide-up">Get to Know Me</a>
+                <div class="social-links slide-up-delay">
+                    <a href="https://github.com" target="_blank" class="social-icon"><i class="fab fa-github"></i></a>
+                    <a href="https://linkedin.com" target="_blank" class="social-icon"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://twitter.com" target="_blank" class="social-icon"><i class="fab fa-twitter"></i></a>
+                    <a href="https://dribbble.com" target="_blank" class="social-icon"><i class="fab fa-dribbble"></i></a>
+                </div>
+            </div>
+            <div class="home-image slide-in-right">
+                <div class="image-wrapper">
+                    <div class="image-placeholder">
+                        <i class="fas fa-user-circle"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-down">
+            <a href="#about"><i class="fas fa-chevron-down"></i></a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about-section section">
+        <div class="container">
+            <h2 class="section-title" data-animate="fade-in">About Me</h2>
+            <div class="about-content">
+                <div class="about-text" data-animate="slide-in-left">
+                    <p>Hello! I'm a passionate web developer and designer with a keen eye for creating beautiful, functional, and user-centered digital experiences. With over 5 years of experience in the industry, I've had the pleasure of working on diverse projects ranging from small business websites to large-scale web applications.</p>
+                    <p>My approach combines technical expertise with creative thinking to deliver solutions that not only meet but exceed client expectations. I believe in continuous learning and staying updated with the latest technologies and design trends.</p>
+                    <p>When I'm not coding, you'll find me exploring new design concepts, contributing to open-source projects, or enjoying outdoor activities.</p>
+                    <a href="#contact" class="btn btn-secondary">Hire Me</a>
+                    <a href="assets/resume.pdf" download class="btn btn-outline">Download CV</a>
+                </div>
+                <div class="about-stats" data-animate="slide-in-right">
+                    <div class="stat-item">
+                        <h3 class="stat-number" data-count="50">0</h3>
+                        <p>Projects Completed</p>
+                    </div>
+                    <div class="stat-item">
+                        <h3 class="stat-number" data-count="35">0</h3>
+                        <p>Happy Clients</p>
+                    </div>
+                    <div class="stat-item">
+                        <h3 class="stat-number" data-count="5">0</h3>
+                        <p>Years Experience</p>
+                    </div>
+                    <div class="stat-item">
+                        <h3 class="stat-number" data-count="15">0</h3>
+                        <p>Awards Won</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills-section section">
+        <div class="container">
+            <h2 class="section-title" data-animate="fade-in">My Skills</h2>
+            <p class="section-subtitle" data-animate="fade-in">Technologies and Tools I Work With</p>
+            <div class="skills-grid">
+                <div class="skill-category" data-animate="slide-up">
+                    <h3><i class="fas fa-code"></i> Frontend Development</h3>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span>HTML/CSS</span>
+                            <span>95%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-progress="95"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span>JavaScript</span>
+                            <span>90%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-progress="90"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span>React</span>
+                            <span>85%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-progress="85"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-category" data-animate="slide-up-delay">
+                    <h3><i class="fas fa-server"></i> Backend Development</h3>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span>Node.js</span>
+                            <span>88%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-progress="88"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span>Python</span>
+                            <span>82%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-progress="82"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span>MongoDB</span>
+                            <span>80%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-progress="80"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-category" data-animate="slide-up-delay-2">
+                    <h3><i class="fas fa-paint-brush"></i> Design</h3>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span>UI/UX Design</span>
+                            <span>92%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-progress="92"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span>Figma</span>
+                            <span>88%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-progress="88"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span>Adobe XD</span>
+                            <span>85%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-progress="85"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio-section section">
+        <div class="container">
+            <h2 class="section-title" data-animate="fade-in">My Portfolio</h2>
+            <p class="section-subtitle" data-animate="fade-in">Recent Projects & Works</p>
+            <div class="portfolio-filters" data-animate="fade-in">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="design">Design</button>
+                <button class="filter-btn" data-filter="development">Development</button>
+                <button class="filter-btn" data-filter="mobile">Mobile</button>
+            </div>
+            <div class="portfolio-grid">
+                <div class="portfolio-item" data-category="development" data-animate="zoom-in">
+                    <div class="portfolio-image">
+                        <div class="portfolio-placeholder">
+                            <i class="fas fa-code"></i>
+                        </div>
+                    </div>
+                    <div class="portfolio-overlay">
+                        <h3>E-Commerce Platform</h3>
+                        <p>Full-stack web application with React and Node.js</p>
+                        <div class="portfolio-links">
+                            <a href="#" class="btn-small"><i class="fas fa-eye"></i> View</a>
+                            <a href="#" class="btn-small"><i class="fab fa-github"></i> Code</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="design" data-animate="zoom-in">
+                    <div class="portfolio-image">
+                        <div class="portfolio-placeholder">
+                            <i class="fas fa-paint-brush"></i>
+                        </div>
+                    </div>
+                    <div class="portfolio-overlay">
+                        <h3>Brand Identity Design</h3>
+                        <p>Complete brand identity for tech startup</p>
+                        <div class="portfolio-links">
+                            <a href="#" class="btn-small"><i class="fas fa-eye"></i> View</a>
+                            <a href="#" class="btn-small"><i class="fas fa-link"></i> Visit</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="mobile" data-animate="zoom-in">
+                    <div class="portfolio-image">
+                        <div class="portfolio-placeholder">
+                            <i class="fas fa-mobile-alt"></i>
+                        </div>
+                    </div>
+                    <div class="portfolio-overlay">
+                        <h3>Fitness Tracking App</h3>
+                        <p>React Native mobile application</p>
+                        <div class="portfolio-links">
+                            <a href="#" class="btn-small"><i class="fas fa-eye"></i> View</a>
+                            <a href="#" class="btn-small"><i class="fab fa-github"></i> Code</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="development" data-animate="zoom-in">
+                    <div class="portfolio-image">
+                        <div class="portfolio-placeholder">
+                            <i class="fas fa-laptop-code"></i>
+                        </div>
+                    </div>
+                    <div class="portfolio-overlay">
+                        <h3>Task Management System</h3>
+                        <p>Collaborative project management tool</p>
+                        <div class="portfolio-links">
+                            <a href="#" class="btn-small"><i class="fas fa-eye"></i> View</a>
+                            <a href="#" class="btn-small"><i class="fab fa-github"></i> Code</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="design" data-animate="zoom-in">
+                    <div class="portfolio-image">
+                        <div class="portfolio-placeholder">
+                            <i class="fas fa-palette"></i>
+                        </div>
+                    </div>
+                    <div class="portfolio-overlay">
+                        <h3>Portfolio Website Design</h3>
+                        <p>Modern portfolio template design</p>
+                        <div class="portfolio-links">
+                            <a href="#" class="btn-small"><i class="fas fa-eye"></i> View</a>
+                            <a href="#" class="btn-small"><i class="fas fa-link"></i> Visit</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="development" data-animate="zoom-in">
+                    <div class="portfolio-image">
+                        <div class="portfolio-placeholder">
+                            <i class="fas fa-chart-line"></i>
+                        </div>
+                    </div>
+                    <div class="portfolio-overlay">
+                        <h3>Analytics Dashboard</h3>
+                        <p>Real-time data visualization platform</p>
+                        <div class="portfolio-links">
+                            <a href="#" class="btn-small"><i class="fas fa-eye"></i> View</a>
+                            <a href="#" class="btn-small"><i class="fab fa-github"></i> Code</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="experience-section section">
+        <div class="container">
+            <h2 class="section-title" data-animate="fade-in">Work Experience</h2>
+            <p class="section-subtitle" data-animate="fade-in">My Professional Journey</p>
+            <div class="timeline">
+                <div class="timeline-item" data-animate="slide-in-left">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <span class="timeline-date">2021 - Present</span>
+                        <h3>Senior Full Stack Developer</h3>
+                        <h4>Tech Innovations Inc.</h4>
+                        <p>Leading development of scalable web applications, mentoring junior developers, and implementing best practices for code quality and performance optimization.</p>
+                        <ul>
+                            <li>Architected and developed 10+ enterprise applications</li>
+                            <li>Improved application performance by 40%</li>
+                            <li>Led team of 5 developers</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="timeline-item" data-animate="slide-in-right">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <span class="timeline-date">2019 - 2021</span>
+                        <h3>Full Stack Developer</h3>
+                        <h4>Creative Solutions Ltd.</h4>
+                        <p>Developed and maintained multiple client projects using modern web technologies. Collaborated with design teams to create pixel-perfect implementations.</p>
+                        <ul>
+                            <li>Delivered 20+ client projects on time</li>
+                            <li>Implemented responsive designs for mobile and desktop</li>
+                            <li>Integrated third-party APIs and services</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="timeline-item" data-animate="slide-in-left">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <span class="timeline-date">2018 - 2019</span>
+                        <h3>Junior Web Developer</h3>
+                        <h4>Digital Agency Pro</h4>
+                        <p>Started my professional journey building responsive websites and learning industry best practices. Worked closely with senior developers to enhance my skills.</p>
+                        <ul>
+                            <li>Built 15+ responsive websites</li>
+                            <li>Learned modern JavaScript frameworks</li>
+                            <li>Collaborated in agile development teams</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="education-section section">
+        <div class="container">
+            <h2 class="section-title" data-animate="fade-in">Education & Certifications</h2>
+            <p class="section-subtitle" data-animate="fade-in">My Academic Background</p>
+            <div class="education-grid">
+                <div class="education-card" data-animate="flip-in">
+                    <div class="education-icon">
+                        <i class="fas fa-graduation-cap"></i>
+                    </div>
+                    <h3>Master of Computer Science</h3>
+                    <h4>University of Technology</h4>
+                    <span class="education-date">2016 - 2018</span>
+                    <p>Specialized in Software Engineering and Web Technologies. Graduated with distinction.</p>
+                </div>
+                <div class="education-card" data-animate="flip-in">
+                    <div class="education-icon">
+                        <i class="fas fa-university"></i>
+                    </div>
+                    <h3>Bachelor of Computer Science</h3>
+                    <h4>State University</h4>
+                    <span class="education-date">2012 - 2016</span>
+                    <p>Foundation in computer science fundamentals, algorithms, and data structures.</p>
+                </div>
+                <div class="education-card" data-animate="flip-in">
+                    <div class="education-icon">
+                        <i class="fas fa-certificate"></i>
+                    </div>
+                    <h3>AWS Certified Developer</h3>
+                    <h4>Amazon Web Services</h4>
+                    <span class="education-date">2022</span>
+                    <p>Professional certification in cloud computing and AWS services.</p>
+                </div>
+                <div class="education-card" data-animate="flip-in">
+                    <div class="education-icon">
+                        <i class="fas fa-award"></i>
+                    </div>
+                    <h3>Full Stack Web Development</h3>
+                    <h4>Online Bootcamp</h4>
+                    <span class="education-date">2017</span>
+                    <p>Intensive program covering modern web development technologies and practices.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="testimonials-section section">
+        <div class="container">
+            <h2 class="section-title" data-animate="fade-in">Testimonials</h2>
+            <p class="section-subtitle" data-animate="fade-in">What Clients Say</p>
+            <div class="testimonials-slider" data-animate="fade-in">
+                <div class="testimonial-track">
+                    <div class="testimonial-card active">
+                        <div class="testimonial-image">
+                            <i class="fas fa-user"></i>
+                        </div>
+                        <p class="testimonial-text">"Working with John was an absolute pleasure. His attention to detail and technical expertise resulted in a website that exceeded our expectations. Highly recommended!"</p>
+                        <h4 class="testimonial-name">Sarah Johnson</h4>
+                        <p class="testimonial-position">CEO, Tech Startup</p>
+                        <div class="testimonial-rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                    <div class="testimonial-card">
+                        <div class="testimonial-image">
+                            <i class="fas fa-user"></i>
+                        </div>
+                        <p class="testimonial-text">"Exceptional developer with great communication skills. John delivered our project on time and within budget. The quality of work was outstanding!"</p>
+                        <h4 class="testimonial-name">Michael Chen</h4>
+                        <p class="testimonial-position">Product Manager, Digital Agency</p>
+                        <div class="testimonial-rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                    <div class="testimonial-card">
+                        <div class="testimonial-image">
+                            <i class="fas fa-user"></i>
+                        </div>
+                        <p class="testimonial-text">"John's creative approach and problem-solving skills made our project a success. He's not just a developer, but a true partner in bringing ideas to life."</p>
+                        <h4 class="testimonial-name">Emily Rodriguez</h4>
+                        <p class="testimonial-position">Founder, E-Commerce Business</p>
+                        <div class="testimonial-rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-controls">
+                    <button class="testimonial-prev"><i class="fas fa-chevron-left"></i></button>
+                    <div class="testimonial-dots">
+                        <span class="dot active" data-slide="0"></span>
+                        <span class="dot" data-slide="1"></span>
+                        <span class="dot" data-slide="2"></span>
+                    </div>
+                    <button class="testimonial-next"><i class="fas fa-chevron-right"></i></button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Blog Section -->
+    <section id="blog" class="blog-section section">
+        <div class="container">
+            <h2 class="section-title" data-animate="fade-in">Latest Blog Posts</h2>
+            <p class="section-subtitle" data-animate="fade-in">Insights & Articles</p>
+            <div class="blog-grid">
+                <article class="blog-card" data-animate="slide-up">
+                    <div class="blog-image">
+                        <div class="blog-placeholder">
+                            <i class="fas fa-newspaper"></i>
+                        </div>
+                        <span class="blog-category">Web Development</span>
+                    </div>
+                    <div class="blog-content">
+                        <span class="blog-date"><i class="far fa-calendar"></i> Dec 15, 2023</span>
+                        <h3>Getting Started with React Hooks</h3>
+                        <p>A comprehensive guide to understanding and using React Hooks in your projects. Learn how hooks can simplify your component logic.</p>
+                        <a href="#" class="blog-link">Read More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </article>
+                <article class="blog-card" data-animate="slide-up">
+                    <div class="blog-image">
+                        <div class="blog-placeholder">
+                            <i class="fas fa-newspaper"></i>
+                        </div>
+                        <span class="blog-category">Design</span>
+                    </div>
+                    <div class="blog-content">
+                        <span class="blog-date"><i class="far fa-calendar"></i> Dec 10, 2023</span>
+                        <h3>Modern UI/UX Design Trends in 2024</h3>
+                        <p>Explore the latest design trends that are shaping the future of user interface and user experience design.</p>
+                        <a href="#" class="blog-link">Read More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </article>
+                <article class="blog-card" data-animate="slide-up">
+                    <div class="blog-image">
+                        <div class="blog-placeholder">
+                            <i class="fas fa-newspaper"></i>
+                        </div>
+                        <span class="blog-category">Performance</span>
+                    </div>
+                    <div class="blog-content">
+                        <span class="blog-date"><i class="far fa-calendar"></i> Dec 5, 2023</span>
+                        <h3>Optimizing Web Performance</h3>
+                        <p>Tips and techniques to improve your website's loading speed and overall performance for better user experience.</p>
+                        <a href="#" class="blog-link">Read More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section section">
+        <div class="container">
+            <h2 class="section-title" data-animate="fade-in">Get In Touch</h2>
+            <p class="section-subtitle" data-animate="fade-in">Let's Work Together</p>
+            <div class="contact-content">
+                <div class="contact-info" data-animate="slide-in-left">
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div>
+                            <h4>Email</h4>
+                            <p>contact@johndoe.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div>
+                            <h4>Phone</h4>
+                            <p>+1 (555) 123-4567</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div>
+                            <h4>Location</h4>
+                            <p>San Francisco, CA</p>
+                        </div>
+                    </div>
+                    <div class="contact-social">
+                        <h4>Follow Me</h4>
+                        <div class="social-links">
+                            <a href="https://github.com" target="_blank" class="social-icon"><i class="fab fa-github"></i></a>
+                            <a href="https://linkedin.com" target="_blank" class="social-icon"><i class="fab fa-linkedin"></i></a>
+                            <a href="https://twitter.com" target="_blank" class="social-icon"><i class="fab fa-twitter"></i></a>
+                            <a href="https://dribbble.com" target="_blank" class="social-icon"><i class="fab fa-dribbble"></i></a>
+                            <a href="https://behance.net" target="_blank" class="social-icon"><i class="fab fa-behance"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <form class="contact-form" id="contactForm" data-animate="slide-in-right">
+                    <div class="form-group">
+                        <input type="text" id="name" name="name" required>
+                        <label for="name">Your Name</label>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" name="email" required>
+                        <label for="email">Your Email</label>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" id="subject" name="subject" required>
+                        <label for="subject">Subject</label>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" name="message" rows="5" required></textarea>
+                        <label for="message">Your Message</label>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Send Message <i class="fas fa-paper-plane"></i></button>
+                    <div class="form-message" id="formMessage"></div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>About</h3>
+                    <p>A passionate web developer and designer creating beautiful digital experiences.</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <ul class="footer-links">
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#portfolio">Portfolio</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Services</h3>
+                    <ul class="footer-links">
+                        <li><a href="#">Web Development</a></li>
+                        <li><a href="#">UI/UX Design</a></li>
+                        <li><a href="#">Mobile Apps</a></li>
+                        <li><a href="#">Consulting</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Newsletter</h3>
+                    <p>Subscribe to get updates</p>
+                    <form class="newsletter-form">
+                        <input type="email" placeholder="Your email">
+                        <button type="submit"><i class="fas fa-paper-plane"></i></button>
+                    </form>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 John Doe. All rights reserved. Built with <i class="fas fa-heart"></i></p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scroll to Top Button -->
+    <button class="scroll-top" id="scrollTop">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <script src="script.js"></script>
+</body>
+</html>
